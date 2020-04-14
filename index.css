@@ -7,5 +7,154 @@
   }
 
 .logo {
-    margin-top: auto;
+    width: 272px;
+    height: 92px;
+    padding-top: 189px;
 }
+
+#header {
+    margin: -30px 0px 0px 0px;
+}
+
+#leftHeader, #rightHeader{
+    display: inline;
+}
+
+#leftHeader {
+    float: left;
+}
+
+#leftHeader a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: black;
+    padding-left: 15px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+#leftHeader a:hover{
+    text-decoration: underline;
+}
+
+#rightHeader {
+    float: right;
+}
+
+#rightHeader a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: black;
+    padding-left: 15px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+#rightHeader a:hover{
+    text-decoration: underline;
+}
+
+#rightHeader {
+    position: relative;
+    margin: 7px 0 0 10x;
+}
+.searchBarContainer {
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    overflow: visible;
+    position: relative;
+}
+
+.searchBar {
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    width:582px;
+    height: 44px;
+}
+
+#searchInput {
+    border: none;
+    margin: none;
+    padding: none;
+    outline: none;
+    word-wrap: break;
+    flex: 100%;
+    font-size: 16px;
+
+}
+
+#searchInput :hover {
+    background-color: yellowgreen;
+}
+
+#magnifyingGlassContainer{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    padding-right: 13px;
+    align-items: left;
+    display: inline-block;
+    line-height: 24px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#magnifyingGlass {
+    color: rgb(154, 160, 166);
+    fill: rgb(154, 160, 166);
+}
+
+.searchBarContainer :hover{
+    box-shadow: 0 1px 6px 0
+        rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.searchBarContainer:hover > .searchBar #magnifyingGlassContainer{
+    box-shadow: 0 0 0 0;
+}
+
+.searchBarContainer:hover > .searchBar #magnifyingGlass{
+    box-shadow: 0 0 0 0;
+}
+
+.searchBarContainer:hover > .searchBar #searchInput{
+    box-shadow: 0 0 0 0;
+}
+
+#searchInput :hover {
+    box-shadow: 0 0 0 0;
+}
+
+#searchButtons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#searchButtons input[type="button"] {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    text-align: justify;
+    min-width: 54px;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 8px 16px;
+}
+
+
+#searchButtons input[type="button"]:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+}
+
